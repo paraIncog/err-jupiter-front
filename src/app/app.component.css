@@ -1,0 +1,4 @@
+.mat-app-background {
+	background-color: var(--mat-app-background-color, var(--mat-sys-background, transparent));
+	color: var(--mat-app-text-color, var(--mat-sys-on-background, inherit));
+}

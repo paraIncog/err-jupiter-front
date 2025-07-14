@@ -15,27 +15,36 @@
   .nav {
     z-index: 1;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.7);
+    transition: 125ms ease-in;
+    background: rgba(255, 255, 255, 0);
     backdrop-filter: blur(5px);
-    border-radius: 50%;
+    height: 99%;
+    border: none;
   }
-
+  
   .nav.left {
     left: 0;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
   }
-
+  
   .nav.right {
     right: 0;
+    border-top-left-radius: 70%;
+    border-bottom-left-radius: 70%;
+  }
+
+  .nav:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: 125ms ease-out;
   }
 
   .scroll-container {
     display: flex;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    padding: 1rem 2.5rem;
-    gap: 1rem;
+    padding: 1rem 1.5rem;
+    gap: 1.5rem;
     flex: 1;
 
     .card {
@@ -43,7 +52,6 @@
       max-width: 160px;
       text-decoration: none;
       color: inherit;
-      /* scroll-snap-align: start; */
 
       img {
         width: 100%;
@@ -64,7 +72,6 @@
   display: flex;
   overflow-x: auto;
   gap: 1rem;
-  padding: 1rem;
 
   .card {
     flex: 0 0 auto;
