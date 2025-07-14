@@ -46,7 +46,7 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
     padding: 1rem 1.5rem;
-    gap: 1.5rem;
+    gap: 1rem;
     flex: 1;
 
     .card {
@@ -57,6 +57,7 @@
       background-color: inherit;
       color: inherit;
       transition: 125ms ease-in-out;
+      border-radius: .5rem;
 
       img {
         width: 100%;
