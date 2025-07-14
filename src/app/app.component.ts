@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { GenreListComponent } from './components/genre-list/genre-list.component';
+import { ContentRowComponent } from './components/content-row/content-row.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, GenreListComponent],
+  imports: [RouterOutlet, ContentRowComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

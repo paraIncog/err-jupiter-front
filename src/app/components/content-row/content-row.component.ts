@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { SoloArticleComponent } from '../solo-article/solo-article.component';
 
 @Component({
-  selector: 'app-genre-list',
+  selector: 'app-content-row',
   imports: [SoloArticleComponent],
-  templateUrl: './genre-list.component.html',
-  styleUrl: './genre-list.component.css'
+  templateUrl: './content-row.component.html',
+  styleUrl: './content-row.component.css'
 })
-export class GenreListComponent {
+export class ContentRowComponent {
 
 }

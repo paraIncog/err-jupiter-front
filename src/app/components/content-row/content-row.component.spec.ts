@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GenreListComponent } from './genre-list.component';
+import { ContentRowComponent } from './content-row.component';
 
-describe('GenreListComponent', () => {
-  let component: GenreListComponent;
-  let fixture: ComponentFixture<GenreListComponent>;
+describe('ContentRowComponent', () => {
+  let component: ContentRowComponent;
+  let fixture: ComponentFixture<ContentRowComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [GenreListComponent]
+      imports: [ContentRowComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(GenreListComponent);
+    fixture = TestBed.createComponent(ContentRowComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
