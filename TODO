@@ -1,7 +1,8 @@
 ToDo List for ERR Front-End Jupiter Video Streaming
 
 *** Required: ***
-[] Horizontal scrolling bar functionality with arrow navigation
+[X] Horizontal scrolling bar functionality with arrow navigation;
+[] Horiz. scrollbar arrow nagivation;
 
 *** Bonus: ***
 [] Style main scrollbar;

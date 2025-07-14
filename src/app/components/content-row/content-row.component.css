@@ -1,0 +1,59 @@
+.row-container {
+  margin-bottom: 2rem;
+
+  h2 {
+    margin: 0 0 1rem 1rem;
+  }
+
+  .scroll-container {
+    display: flex;
+    overflow-x: auto;
+    padding-left: 1rem;
+    gap: 1rem;
+    scroll-snap-type: x mandatory;
+
+    .card {
+      flex: 0 0 auto;
+      width: 140px;
+      scroll-snap-align: start;
+
+      img {
+        width: 100%;
+        border-radius: 8px;
+        object-fit: cover;
+      }
+
+      p {
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem;
+
+  .card {
+    flex: 0 0 auto;
+    width: 160px;
+    text-decoration: none;
+    color: inherit;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+      object-fit: cover;
+    }
+
+    p {
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      text-align: center;
+    }
+  }
+}

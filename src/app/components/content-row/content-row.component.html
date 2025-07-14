@@ -1,2 +1,9 @@
-<p>content-row works!</p>
-<app-solo-article></app-solo-article>
+<div class="row-container">
+  <h2>{{ title }}</h2>
+  <div class="scroll-container">
+    <a class="card" *ngFor="let item of items" [href]="item.canonicalUrl" target="_blank">
+      <img [src]="getVerticalPhoto(item)" [alt]="item.heading || 'Pilt'" loading="lazy" />
+      <p>{{ item.heading }}</p>
+    </a>
+  </div>
+</div>
