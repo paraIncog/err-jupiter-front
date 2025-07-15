@@ -2,19 +2,22 @@
   <div class="picture-gradient"></div>
   <img
     class="banner-img"
+    [src]="bannerData?.imageUrl"
+    alt="Banner img"
     sizes="100vw"
     decoding="async"
   />
   <div class="banner-link-wrapper">
     <a
       class="banner-link"
+      [href]="bannerData?.link"
       tabindex="0"
     >
-      <img alt="Play" class="banner-link-icon" />
+      <span class="material-icons banner-link-icon">play_circle</span>
       <span class="banner-link-text">Vaata</span>
     </a>
   </div>
-  <h2>TITLE PLACEHOLDER</h2>
-  <p class="banner-desc">Description placeholder</p>
-  <div class="banner-lead"></div>
+  <h2>{{ bannerData?.title }}</h2>
+  <p class="banner-desc">{{ bannerData?.description }}</p>
+  <div class="banner-lead" [innerHTML]="bannerData?.lead"></div>
 </div>

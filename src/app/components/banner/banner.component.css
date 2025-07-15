@@ -43,43 +43,30 @@
 
 .banner-link-wrapper {
 	padding: 0 0 0 2rem;
+	align-items: center;
 }
 
 .banner-link {
+	background-color: grey;
+	border-radius: .5rem;
+	color: #fff;
 	position: relative;
 	z-index: 3;
-	background: var(--brand-bg);
-	color: var(--brand-header);
 	font-weight: 600;
-	padding: .7em 1.2em .7em 1.2em;
-	margin-bottom: 1.2rem;
-	margin-top: 0.5rem;
+	padding: .5em 1rem;
 	text-decoration: none;
 	font-size: 1.1rem;
 	font-weight: 100;
 	display: inline-flex;
 	align-items: center;
-	transition: background 0.2s, color 0.2s;
-	gap: 0.2em;
-	border-radius: 0.2rem;
-}
-
-.banner-link:hover,
-.banner-link:focus {
-	background: var(--brand-header-shadow1);
+	border-radius: .5rem;
 }
 
 .banner-link-icon {
+	display: flex;
 	width: 1.5em;
 	height: 1.5em;
-	display: inline-block;
-	margin-right: 0.5em;
-	filter: brightness(0) invert(1);
-}
-
-.banner-link-text {
-	display: inline-block;
-	color: var(--brand-header);
+	align-items: center;
 }
 
 .banner h2 {
