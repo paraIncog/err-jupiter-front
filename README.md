@@ -1,59 +1,35 @@
-# ErrJupiterFront
+# ERR Jupiteri Frontend Programm
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
 
-## Development server
+## Tehnoloogiad kasutuses:
+* Angular veebiraamistik
+* Angular Material (https://material.angular.dev/)
 
-To start a local development server, run:
+### Juhised kasutamiseks
 
-```bash
-ng serve
-```
+Kui soovite kasutada kohalikult, siis lugege neid juhiseid:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+#### Otsene allalaadimine ja kohalik kasutus
 
-## Code scaffolding
+1. Laadige alla kogu kood ZIP failina ja paki lahti Teile sobivas asukohas vajutades teise alternatiiv hiirevajutusega nupul `Extract all..` ja siis `Extract`
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+2. Avage lahtipakitud fail Integreeritud programmeerimiskeskkonnas (IDEs)
 
-```bash
-ng generate component component-name
-```
+3. [IDE Konsoolis] Sisestage käsund `npm install`, et masin laeks alla programmi toimimiseks vajalikud komponendid
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+4.1. [IDEs] Vajutage käivitamiseks IDEsse sisseehitatud nupp, kus saab käivitada programmi konsooli abita - tavaliselt on selleks 'play' nupp
 
-```bash
-ng generate --help
-```
+4.2. [Konsoolis] Sisestage programmis käivitamiseks käsund `ng serve`
 
-## Building
+5. Võtke lahti veebilehitseja (brauser) aadressil `localhost:4200`
 
-To build the project run:
+## Autorid
 
-```bash
-ng build
-```
+### Andreas Selge
+[LinkedIn](https://www.linkedin.com/in/selgeandreas)
+<p>Käesoleva programmi ja välimuse kujundaja ning arendaja</p>
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Eesti Rahvusringhääling
+[Jupiteri leht](https://jupiter.err.ee/video)</p>
+<p>Esmane välimus ja inspiratsiooni allikas</p>

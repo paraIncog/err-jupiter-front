@@ -1,9 +1,10 @@
 .row-container {
   margin-bottom: 2rem;
 
-  h2 {
+  h1 {
     margin-left: 1rem;
     margin-bottom: .5rem;
+    font-weight: lighter;
   }
 
   .scroll-wrapper {

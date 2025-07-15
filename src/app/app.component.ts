@@ -19,8 +19,11 @@ export class AppComponent implements OnInit {
   constructor(private contentService: ContentService) { }
 
   ngOnInit() {
-    this.contentService.getFrontPageContent().subscribe(rows => {
-      this.frontPageRows = rows;
+    this.contentService.getFrontPageContent().subscribe((response: any[]) => {
+      this.frontPageRows = response.map(topic => ({
+        title: topic.header,
+        data: topic.data
+      }))
     });
   }
 }
