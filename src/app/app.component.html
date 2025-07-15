@@ -1,5 +1,6 @@
 <main class="main">
   <div class="homepage content">
+    <app-banner></app-banner>
     <app-content-row *ngFor="let row of frontPageRows" [title]="row.title" [items]="row.data"></app-content-row>
   </div>
 </main>

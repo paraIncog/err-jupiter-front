@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { BannerComponent } from './components/banner/banner.component';
 import { ContentRowComponent } from './components/content-row/content-row.component';
 import { ContentService } from './services/content.service';
 import { CommonModule } from '@angular/common';
@@ -7,7 +8,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ContentRowComponent, CommonModule],
+  imports: [RouterOutlet, ContentRowComponent, CommonModule, BannerComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
