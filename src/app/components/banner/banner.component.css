@@ -1,3 +1,4 @@
+/* Borrow from Timofey and Jupiter */
 .banner {
 	position: relative;
 	width: 100vw;
@@ -40,17 +41,6 @@
 
 }
 
-.picture-gradient {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(180deg, rgba(32, 57, 76, 0.2) 0%, rgba(32, 57, 76, 0.8) 100%);
-	z-index: 2;
-
-}
-
 .banner-link-wrapper {
 	padding: 0 0 0 2rem;
 }
@@ -85,7 +75,6 @@
 	display: inline-block;
 	margin-right: 0.5em;
 	filter: brightness(0) invert(1);
-	/* makes icon white */
 }
 
 .banner-link-text {
@@ -121,22 +110,4 @@
 	text-overflow: ellipsis;
 	white-space: normal;
 	text-shadow: 0 2px 8px var(--brand-header-shadow1), 0 1px 10px var(--brand-header-shadow2);
-}
-
-@media (max-width: 960px) {
-	.banner {
-		min-height: 220px;
-		padding: 2.5rem 0 1.5rem 0;
-	}
-
-	.banner h2 {
-		font-size: 1.3rem;
-	}
-
-	.banner-lead {
-		font-size: 1rem;
-		max-width: 90vw;
-		width: 90vw;
-		padding-bottom: 1.5rem;
-	}
 }
