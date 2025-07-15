@@ -2,7 +2,7 @@
   <div class="picture-gradient"></div>
   <img
     class="banner-img"
-    [src]="bannerData?.imageUrl"
+    [src]="imageUrl"
     alt="Banner img"
     sizes="100vw"
     decoding="async"
@@ -17,7 +17,7 @@
       <span class="banner-link-text">Vaata</span>
     </a>
   </div>
-  <h2>{{ bannerData?.title }}</h2>
+  <h2>{{ bannerData?.heading }}</h2>
   <p class="banner-desc">{{ bannerData?.description }}</p>
   <div class="banner-lead" [innerHTML]="bannerData?.lead"></div>
 </div>

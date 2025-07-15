@@ -1,9 +1,8 @@
-/* Borrow from Timofey and Jupiter */
+/* Borrowed some parts from Timofey and Jupiter */
 .banner {
 	position: relative;
 	width: 100vw;
 	min-height: 340px;
-	background: var(--brand-bg);
 	border-radius: 0;
 	overflow: hidden;
 	margin-bottom: 2.5rem;
@@ -19,11 +18,9 @@
 .banner-desc {
 	position: relative;
 	z-index: 3;
-	color: var(--brand-header);
 	font-size: 1rem;
 	font-weight: 100;
 	margin: 0 0 0.7rem 0;
-	text-shadow: 0 2px 8px var(--brand-header-shadow1), 0 1px 0 var(--brand-header-shadow2);
 	padding: 0 0 0 2rem;
 }
 
@@ -72,18 +69,15 @@
 .banner h2 {
 	position: relative;
 	z-index: 3;
-	color: var(--brand-header);
 	font-size: 2.2rem;
 	font-weight: 100;
 	margin: 0 0 0.7rem 0;
-	text-shadow: 0 2px 8px var(--brand-header-shadow1), 0 1px 0 var(--brand-header-shadow2);
 	padding: 0 0 0 2rem;
 }
 
 .banner-lead {
 	position: relative;
 	z-index: 3;
-	color: var(--brand-header);
 	font-size: calc(16px + 10 * (100vw - 600px) / 3840);
 	line-height: calc(22px + 20 * (100vw - 600px) / 3840);
 	letter-spacing: .02em;
@@ -96,5 +90,4 @@
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: normal;
-	text-shadow: 0 2px 8px var(--brand-header-shadow1), 0 1px 10px var(--brand-header-shadow2);
 }
