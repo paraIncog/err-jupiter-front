@@ -5,9 +5,8 @@ ToDo List for ERR Front-End Jupiter Video Streaming
 - [X] Horiz. scrollbar arrow nagivation;
 
 *** Bonus: ***
-- [] Style main scrollbar;
-- [] Add Jupiters/planets as background floating items that go in different speeds when scrolling;
-- [] On hover on content - add animation coming closer, darken other contents, display full title, add description;
+- [X] Style main scrollbar;
+- [] On hover on content - darken other contents;
 - [X] Add headers for each genre;
 - [X] Add big banner in the start of page for reccomended videos (should have cover pic, title, description, play button);
 - [] Dockerize
