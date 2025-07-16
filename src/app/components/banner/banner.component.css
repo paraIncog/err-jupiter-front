@@ -1,4 +1,4 @@
-/* Borrowed some parts from Timofey and Jupiter */
+/* Borrowed some parts from Jupiter */
 .banner {
 	position: relative;
 	width: 100vw;
@@ -10,7 +10,7 @@
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: flex-start;
-	padding: 10rem 0 5rem 0;
+	padding: 10rem 0 10rem 0;
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -29,32 +29,30 @@
 
 }
 
-.banner-link-wrapper {
-	padding: 0 0 0 2rem;
-	align-items: center;
+.banner-content {
+	position: relative;
+	padding-left: 2rem;
+	margin-top: 1rem;
+	z-index: 3;
+	transform: translateY(60%);
 }
 
 .banner-link {
-	background-color: grey;
-	border-radius: .5rem;
-	color: #fff;
-	position: relative;
-	z-index: 3;
-	font-weight: 600;
-	padding: .5em 1rem;
-	text-decoration: none;
-	font-size: 1.1rem;
-	font-weight: 100;
-	display: inline-flex;
+	display: flex;
 	align-items: center;
-	border-radius: .5rem;
+	background-color: grey;
+	color: #fff;
+	padding: .5rem .9rem;
+	border-radius: .1rem;
+	width: 70px;
+	position: relative;
+	cursor: pointer;
+	text-decoration: none;
 }
 
 .banner-link-icon {
-	display: flex;
 	width: 1.5em;
 	height: 1.5em;
-	align-items: center;
 }
 
 .banner h2 {
@@ -62,8 +60,8 @@
 	z-index: 3;
 	font-size: 2.2rem;
 	font-weight: 100;
-	margin: .1rem .1rem 0.7rem 0;
-	padding: 0.1rem 0 0 2rem;
+	margin-bottom: .01rem;
+	margin-top: .5rem;
 }
 
 .banner-lead {
@@ -73,12 +71,11 @@
 	line-height: calc(22px + 20 * (100vw - 600px) / 3840);
 	letter-spacing: .02em;
 	font-weight: 100;
-	margin-bottom: 0.5rem;
-	padding: 0 0 0 2rem;
 	max-width: 65vw;
 	width: 65vw;
 	box-sizing: border-box;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: normal;
+	margin-bottom: .1rem;
 }

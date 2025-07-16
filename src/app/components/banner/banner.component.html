@@ -1,22 +1,15 @@
 <div class="banner">
   <div class="picture-gradient"></div>
-  <img
-    class="banner-img"
-    [src]="imageUrl"
-    alt="Banner img"
-    sizes="100vw"
-    decoding="async"
-  />
-  <div class="banner-link-wrapper">
-    <a
-      class="banner-link"
-      [href]="bannerData?.link"
-      tabindex="0"
-    >
-      <span class="material-icons banner-link-icon">play_circle</span>
-      <span class="banner-link-text">Vaata</span>
-    </a>
+  <img class="banner-img" [src]="imageUrl" alt="Banner img" sizes="100vw" decoding="async" />
+  <div class="banner-content">
+
+    <div class="banner-link-wrapper">
+      <a class="banner-link" [href]="bannerData?.link" tabindex="0">
+        <span class="material-icons banner-link-icon">play_circle</span>
+        <span class="banner-link-text">Vaata</span>
+      </a>
+    </div>
+    <h2>{{ bannerData?.heading }}</h2>
+    <div class="banner-lead" [innerHTML]="bannerData?.lead"></div>
   </div>
-  <h2>{{ bannerData?.heading }}</h2>
-  <div class="banner-lead" [innerHTML]="bannerData?.lead"></div>
 </div>
