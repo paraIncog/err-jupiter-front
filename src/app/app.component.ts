@@ -10,8 +10,7 @@ import { HttpClient } from '@angular/common/http';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, ContentRowComponent, CommonModule, BannerComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  templateUrl: './app.component.html'
 })
 
 export class AppComponent implements OnInit {
