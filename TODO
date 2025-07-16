@@ -7,8 +7,7 @@ ToDo List for ERR Front-End Jupiter Video Streaming
 *** Bonus: ***
 - [X] Style main scrollbar;
 - [X] On hover on content - darken other contents;
-- [] Add accessible tooltips;
 - [X] Add headers for each genre;
 - [X] Add big banner in the start of page for reccomended videos (should have cover pic, title, description, play button);
-- [] Dockerize
+- [X] Dockerize
 - [] Put up to web hosting site
