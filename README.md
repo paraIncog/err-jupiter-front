@@ -1,14 +1,46 @@
 # ERR Jupiteri Frontend Programm
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
-
 ## Tehnoloogiad kasutuses:
 * Angular veebiraamistik
 * Angular Material (https://material.angular.dev/)
+* Docker (https://www.docker.com/)
+* Programeerimiskeskkonnana kasutati Visual Studio Code'i (https://code.visualstudio.com/)
 
 ### Juhised kasutamiseks
 
-Kui soovite kasutada kohalikult, siis lugege neid juhiseid:
+#### Kasutamine läbi Dockeri
+
+1. Avage Integreeritud programmeerimiskeskkond (IDE)
+
+2. Avage programm läbi versioonihalduse vajutades nupule `Clone Git Repository` ja siis sisestage koodi aadress (https://github.com/paraIncog/err-jupiter-front.git)
+
+3. Laadige alla ja käivitage [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
+4. Pärast Dockeri käivitamist sisestage IDE konsoolis
+```bash
+docker build -t err-jupiter-frontend .
+docker run -d -p 8888:80 --name jupiter-frontend err-jupiter-frontend
+```
+
+5. Võtke lahti veebilehitseja (brauser) aadressil [localhost:8888](localhost:8888)
+
+*!Pärast Kasutust!*
+
+Lõpetage Dockeri konteineri tegevus kasutades
+```bash
+docker stop jupiter-frontend
+```
+ja siis
+```bash
+docker rm jupiter-frontend
+```
+konteineri eemaldamiseks.
+
+Lõpuks
+```bash
+docker system prune -af
+```
+ülejäänu tekitatud süsteemi prügi kustutamiseks.
 
 #### Otsene allalaadimine ja kohalik kasutus
 
@@ -16,38 +48,32 @@ Kui soovite kasutada kohalikult, siis lugege neid juhiseid:
 
 2. Avage lahtipakitud fail Integreeritud programmeerimiskeskkonnas (IDEs)
 
-3. [IDE Konsoolis] Sisestage käsund `npm install`, et masin laeks alla programmi toimimiseks vajalikud komponendid
+3. [IDE Konsoolis] Sisestage käsund 
+```bash
+npm install
+```
+et masin laeks alla programmi toimimiseks vajalikud komponendid
 
 4.
 
--	A [IDEs] Vajutage käivitamiseks IDEsse sisseehitatud nupp, kus saab käivitada programmi konsooli abita - tavaliselt on selleks 'play' nupp
+- A [IDEs] Vajutage käivitamiseks IDEsse sisseehitatud nupp, kus saab käivitada programmi konsooli abita - tavaliselt on selleks 'play' nupp
 
--	B [Konsoolis] Sisestage programmis käivitamiseks käsund `npm start`
+- B [Konsoolis] Sisestage programmis käivitamiseks käsund
+```bash
+npm start
+```
 
 5. Võtke lahti veebilehitseja (brauser) aadressil [localhost:4200](localhost:4200)
 
-#### Kasutamine läbi Dockeri
+*!Pärast kasutust!*
 
-1. Laadige alla kogu kood ZIP failina ja paki lahti Teile sobivas asukohas vajutades teise alternatiiv hiirevajutusega nupul `Extract all..` ja siis `Extract`
+Kinni panemiseks sulge IDE aken, või siis IDE terminalis vajutada klahvikombinatsioonil `CTRL + C` ja kinnita vajutades `y`
 
-2. Avage lahtipakitud fail Integreeritud programmeerimiskeskkonnas (IDEs)
+## Video programmi alla laadimisest ja kasutamisest
 
-3. Laadige alla ja käivitage [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+[placeholder]
 
-4. Pärast Dockeri käivitamist sisestage IDE konsoolis `docker build -t err-jupiter-frontend .` ja siis `docker run -d -p 8888:80 --name jupiter-frontend err-jupiter-frontend`
-
-5. Võtke lahti veebilehitseja (brauser) aadressil [localhost:8888](localhost:8888)
-
-**Pärast Kasutust**
-
-Lõpetage Dockeri konteineri tegevus kasutades `docker stop jupiter-frontend`, ja siis `docker rm jupiter-frontend` konteineri eemaldamiseks. Lõpuks `docker system prune -af` ülejäänu tekitatud süsteemi prügi kustutamiseks.
-
-## Autorid
+## Autor
 
 ### Andreas Selge
 [LinkedIn](https://www.linkedin.com/in/selgeandreas)
-<p>Käesoleva programmi ja välimuse kujundaja ning arendaja</p>
-
-### Eesti Rahvusringhääling
-[Jupiteri leht](https://jupiter.err.ee/video)</p>
-<p>Esmane välimus ja inspiratsiooni allikas</p>
