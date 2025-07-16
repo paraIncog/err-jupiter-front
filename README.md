@@ -1,4 +1,4 @@
-# ERR Jupiteri Frontend Programm
+# ERR Jupiteri Frontend Programm ![Angular](https://img.shields.io/badge/--%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
 
 ## Tehnoloogiad kasutuses:
 * Angular veebiraamistik
@@ -8,11 +8,11 @@
 
 ### Juhised kasutamiseks
 
-#### Kasutamine läbi Dockeri
+#### ![Docker](https://img.shields.io/badge/--%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) Kasutamine Dockeri kaudu
 
 1. Avage Integreeritud programmeerimiskeskkond (IDE)
 
-2. Avage programm läbi versioonihalduse vajutades nupule `Clone Git Repository` ja siis sisestage koodi aadress (https://github.com/paraIncog/err-jupiter-front.git)
+2. Avage programm läbi versioonihalduse vajutades nupule `Clone Git Repository` ja siis sisestage koodi aadress `https://github.com/paraIncog/err-jupiter-front.git`
 
 3. Laadige alla ja käivitage [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
@@ -71,7 +71,7 @@ Kinni panemiseks sulge IDE aken, või siis IDE terminalis vajutada klahvikombina
 
 ## Video programmi alla laadimisest ja kasutamisest
 
-[placeholder]
+[![YT video](https://img.youtube.com/vi/69KhLfRsX1E/0.jpg)](https://www.youtube.com/watch?v=69KhLfRsX1E)
 
 ## Autor
 
