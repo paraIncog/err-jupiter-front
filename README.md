@@ -18,9 +18,11 @@ Kui soovite kasutada kohalikult, siis lugege neid juhiseid:
 
 3. [IDE Konsoolis] Sisestage käsund `npm install`, et masin laeks alla programmi toimimiseks vajalikud komponendid
 
-4.1. [IDEs] Vajutage käivitamiseks IDEsse sisseehitatud nupp, kus saab käivitada programmi konsooli abita - tavaliselt on selleks 'play' nupp
+4.
 
-4.2. [Konsoolis] Sisestage programmis käivitamiseks käsund `npm start`
+-	A [IDEs] Vajutage käivitamiseks IDEsse sisseehitatud nupp, kus saab käivitada programmi konsooli abita - tavaliselt on selleks 'play' nupp
+
+-	B [Konsoolis] Sisestage programmis käivitamiseks käsund `npm start`
 
 5. Võtke lahti veebilehitseja (brauser) aadressil [localhost:4200](localhost:4200)
 
@@ -35,6 +37,10 @@ Kui soovite kasutada kohalikult, siis lugege neid juhiseid:
 4. Pärast Dockeri käivitamist sisestage IDE konsoolis `docker build -t err-jupiter-frontend .` ja siis `docker run -d -p 8888:80 --name jupiter-frontend err-jupiter-frontend`
 
 5. Võtke lahti veebilehitseja (brauser) aadressil [localhost:8888](localhost:8888)
+
+**Pärast Kasutust**
+
+Lõpetage Dockeri konteineri tegevus kasutades `docker stop jupiter-frontend`, ja siis `docker rm jupiter-frontend` konteineri eemaldamiseks. Lõpuks `docker system prune -af` ülejäänu tekitatud süsteemi prügi kustutamiseks.
 
 ## Autorid
 
