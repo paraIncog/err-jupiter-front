@@ -15,15 +15,6 @@
 	transform: translateX(-50%);
 }
 
-.banner-desc {
-	position: relative;
-	z-index: 3;
-	font-size: 1rem;
-	font-weight: 100;
-	margin: 0 0 0.7rem 0;
-	padding: 0 0 0 2rem;
-}
-
 .banner-img {
 	position: absolute;
 	top: 0;
@@ -71,8 +62,8 @@
 	z-index: 3;
 	font-size: 2.2rem;
 	font-weight: 100;
-	margin: 0 0 0.7rem 0;
-	padding: 0 0 0 2rem;
+	margin: .1rem .1rem 0.7rem 0;
+	padding: 0.1rem 0 0 2rem;
 }
 
 .banner-lead {
