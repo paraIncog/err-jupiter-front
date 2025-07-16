@@ -19,6 +19,8 @@ export class ContentRowComponent {
 
   @ViewChild('scrollContainer', { static: true }) scrollContainer!: ElementRef<HTMLDivElement>;
 
+  hoveredItem: any = null;
+  
   scroll(direction: 'left' | 'right') {
     const el = this.scrollContainer.nativeElement;
     const scrollAmount = el.offsetWidth;

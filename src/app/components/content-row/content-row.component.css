@@ -57,7 +57,7 @@
       text-decoration: none;
       background-color: inherit;
       color: inherit;
-      transition: 125ms ease-in-out;
+      transition: opacity 125ms ease, filter 125ms ease;
       border-radius: .5rem;
 
       img {
@@ -77,6 +77,10 @@
       background-color: rgba(255, 255, 255, 0.7);
       color: #000;
       transition: 125ms ease-in-out;
+    }
+    .card.dimmed {
+      opacity: 0.3;
+      filter: blur(2px);
     }
   }
 }

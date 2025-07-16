@@ -7,7 +7,7 @@
     </button>
 
     <div class="scroll-container" #scrollContainer>
-      <a class="card" *ngFor="let item of items" [href]="item.canonicalUrl" target="_blank">
+      <a class="card" *ngFor="let item of items" [href]="item.canonicalUrl" target="_blank" (mouseenter)="hoveredItem = item" (mouseleave)="hoveredItem = null" [class.dimmed]="hoveredItem && hoveredItem !== item">
         <img [src]="getVerticalPhoto(item)" [alt]="item.heading || 'Pilt'" loading="lazy" />
         <p>{{ item.heading }}</p>
       </a>
