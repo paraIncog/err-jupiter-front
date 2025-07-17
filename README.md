@@ -1,4 +1,4 @@
-# ERR Jupiteri Frontend Programm ![Angular](https://img.shields.io/badge/--%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
+# ERR Jupiteri Frontend Programm ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
 
 ## Tehnoloogiad kasutuses:
 * Angular veebiraamistik
@@ -8,7 +8,7 @@
 
 ### Juhised kasutamiseks
 
-#### ![Docker](https://img.shields.io/badge/--%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) Kasutamine Dockeri kaudu
+####  Kasutamine Dockeri kaudu ![Docker](https://img.shields.io/badge/--%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 1. Avage Integreeritud programmeerimiskeskkond (IDE)
 
