@@ -71,7 +71,7 @@ Kinni panemiseks sulge IDE aken, või siis IDE terminalis vajutada klahvikombina
 
 ## Video programmi alla laadimisest ja kasutamisest
 
-[![YT video](https://img.youtube.com/vi/69KhLfRsX1E/0.jpg)](https://www.youtube.com/watch?v=69KhLfRsX1E)
+[YT video](https://www.youtube.com/watch?v=69KhLfRsX1E)
 
 ## Autor
 
