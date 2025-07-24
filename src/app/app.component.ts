@@ -4,11 +4,12 @@ import { ContentRowComponent } from './components/content-row/content-row.compon
 import { ContentService } from './services/content.service';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
+import { BannerComponent } from './components/banner/banner.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ContentRowComponent, CommonModule],
+  imports: [RouterOutlet, ContentRowComponent, CommonModule, BannerComponent],
   templateUrl: './app.component.html'
 })
 

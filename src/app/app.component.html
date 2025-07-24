@@ -1,6 +1,6 @@
 <main class="main">
   <div class="homepage content">
-    <!-- <app-banner [bannerData]="bannerItem"></app-banner> -->
+    <app-banner [bannerData]="bannerItem"></app-banner>
     <ng-container *ngFor="let row of frontPageRows">
       <app-content-row *ngIf="row.data && row.data.length > 0" [title]="row.header" [items]="row.data">
       </app-content-row>
